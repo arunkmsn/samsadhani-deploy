@@ -18,7 +18,7 @@ Download the installation bundle for Vagrant from [here](https://www.vagrantup.c
 # Usage
 * Checkout this repo using `git clone https://github.com/arunkmsn/samsadhani-deploy`
 * `cd` into `samsadhani-deploy`
-* Execute `./init.sh` (This may take some time if it's a fresh install)
-* Do `vagrant up`. This will boot the VM and also start compiling the software and install them
-* Finally do `vagrant ssh` to login to your machine if you want to use command line software
-* You can access the web interface at http://192.168.33.10/scl/ once `vagrant up` is successful.
+* Execute `./init.sh` on Ubuntu or Mac OS (This may take some time if it's a fresh install)
+* If using windows, execute the commands inside the `init.sh` individually or in a bat file.
+* After the installation is finished successfully, do `vagrant ssh` to login to your machine if you want to use command line software
+* You can access the web interface at http://192.168.33.10/scl/ once `init.sh` is successful.
