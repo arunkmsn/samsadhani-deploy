@@ -56,6 +56,7 @@ HERE
 ./configure && make -k && sudo make install
 cd /home/vagrant
 
+git clone http://www.github.com/arunkmsn/scl-cl.git
 git clone http://scl.samsaadhanii.in:3000/amba/scl.git
 cd scl
 
