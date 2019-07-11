@@ -3,6 +3,12 @@
 
 It can be a daunting task for a traditional sanskrit scholar to put all this components together and run them so that he can get on with his work. This project aims to do just that with the help of a virtual machine on which a script handles all dependencies required to run it.
 
+# Acknowledgements
+
+This project was generously funded by Indic Academy. I'm very grateful to:
+* Sri Hari Kiran Vadlamani, Founder : Indic Academy
+* (Dr Nagaraj Paturi, Director,) Inter-Gurukula University Centre for Indic Knowledge Systems
+
 # Prerequisites
 
 * [Vagrant](https://www.vagrantup.com/) Environment manager using pre-built VMs (also known as Box)
@@ -12,7 +18,13 @@ It can be a daunting task for a traditional sanskrit scholar to put all this com
 Simply install by doing `sudo apt install vagrant virtualbox`
 
 ## On Windows and Mac
-Download the installation bundle for Vagrant from [here](https://www.vagrantup.com/downloads.html) and for Virtualbox [here](https://www.virtualbox.org/wiki/Downloads)
+Download the installation bundle for Vagrant from [here](https://www.vagrantup.com/downloads.html) and for Virtualbox [here](https://www.virtualbox.org/wiki/Downloads).
+
+Please note that windows requires powershell 3.0 and above for vagrant to function. Subsequently, windows 8 and later versions would be preferred. The installations require downloads over the internet. Please make sure you have a good working internet connection during installation.
+
+# Hardware Requirements
+* Any desktop/laptop CPU with more than 2 cores is preferred.
+* Minimum of 4GB RAM is recommended to host the virtual machine.
 
 
 # Usage
